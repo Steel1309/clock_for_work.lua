@@ -26,5 +26,5 @@ local current_time = os.date("%d/%m/%Y,%a,%H.%M")
 print("Appending " .. current_time .. " to " .. FILENAME .. "...")
 file:write("\n" .. current_time)
 io.close(file)
-print("The Program has finished.")
+print("The Program has finished its job.")
 ```
